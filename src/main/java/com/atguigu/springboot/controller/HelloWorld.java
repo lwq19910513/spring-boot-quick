@@ -32,6 +32,7 @@ public class HelloWorld {
     @GetMapping("/hello")
     public Employee getEmp(Employee employee) {
         Employee emp = employeeService.updateEmp(employee);
+        System.out.println(emp);
         return emp;
     }
 
