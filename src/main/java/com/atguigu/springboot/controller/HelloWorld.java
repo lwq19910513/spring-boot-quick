@@ -45,6 +45,7 @@ public class HelloWorld {
     @RequestMapping("/success")
     public String success(Map<String, Object> map) {
         map.put("hello", "你好");
+        map.put("helloworld", "helloworld");
         return "success";
     }
 }
