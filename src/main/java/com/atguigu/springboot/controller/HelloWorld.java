@@ -40,6 +40,7 @@ public class HelloWorld {
     @GetMapping("/delemp/{id}")
     public String deleteEmp(@PathVariable("id") Integer id) {
         employeeService.deleteEmp(id);
+        System.out.println("测试分支");
         return "success";
     }
 
