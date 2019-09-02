@@ -96,6 +96,7 @@
             <version>1.4.7.RELEASE</version>
         </dependency>
 
+        <!-- 引入热部署开发工具 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
