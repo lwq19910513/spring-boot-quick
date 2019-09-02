@@ -26,6 +26,7 @@ public class HelloWorld {
 //            throw new UserNotExistException();
 //        }
         Employee employee = employeeService.getEmpById(id);
+        System.out.println(employee);
         return employee;
     }
 
